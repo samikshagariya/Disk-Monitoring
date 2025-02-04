@@ -4,7 +4,7 @@
 
 LOGFILE="$HOME/disk_monitor.log"  # Change log file location to home directory
 THRESHOLD=10
-TO="samikshagariya09@gmail.com"
+TO="xyz@gmail.com"
 
 # Get disk usage percentage of /dev/sda1
 FU=$(df -H | grep "sda1" | awk '{print $5}' | tr -d '%')
